@@ -4,7 +4,7 @@ import numpy as np
 
 def main():
     # Load the model
-    with open('../outputs/models/model_dt.pkl', 'rb') as file:
+    with open('/workspaces/m32895-public/outputs/models/model_dt.pkl', 'rb') as file:
         model = pickle.load(file)
 
     st.title("🚢 Titanic Survival Prediction")
